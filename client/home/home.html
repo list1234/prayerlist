@@ -1,0 +1,17 @@
+
+<template name="home">
+ <!-- <div class="well well-large">
+    <label for="posttext">Prayer Request</label>
+    <input placeholder="What's on your mind?" class="input-xxlarge posttext" type="text" name="posttext" value="" id="posttext">
+  </div> -->
+ <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo largeprayer">
+    	<input class="mdl-textfield__input posttext" type="text" id="sample3" value=""/>
+    	<label class="mdl-textfield__label" for="sample3">Prayer Request...</label>
+  </div>
+ <!-- <ul id="postList" class="unstyled"> -->
+    {{#each posts}}
+      {{> post}}
+    {{/each}}
+ <!-- </ul> -->
+      
+</template>

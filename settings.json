@@ -1,0 +1,4 @@
+{
+	"public": {},
+	"galaxy.meteor.com": { "env": { "ROOT_URL": "http://www.prayerlist.co", "MONGO_URL": "mongodb://prayerlist:Dreezi8421@ds035844.mlab.com:35844/prayerdb"} } 
+}

@@ -1,0 +1,21 @@
+{
+  "gcm": {
+    "apiKey": "AIzaSyCVC0V21MRGaRZN0yuif6IoaVWtTBpHOy0",
+    "projectNumber": 652297852917
+  },
+  "apn": {
+  		"passphrase": "Dreezi8421",  
+    	"key": "prayerlist_apns_prodkeyname.pem",
+    	"cert": "prayerlist_cert_file_apns_production.pem"
+   },
+	"apn-dev":{
+ 		"passphrase": "Dreezi8421",
+ 		"key": "dev_keyname.pem",
+ 		"cert": "prayerlist_cert_file_apns_development.pem"
+ 	},
+ 	"production": true,
+ 	"badge": true,
+ 	"sound": true,
+ 	"alert": true,
+ 	"vibrate": true
+}

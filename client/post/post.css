@@ -1,0 +1,17 @@
+.mdl-button {
+	height:100%;
+	margin-right:30%;
+	margin-top:30%;
+	min-width: 83px;
+	max-width: 83px;
+}
+.prayercount {
+	font-size: 11px;
+}
+
+.hands {
+	font-color:#B2B2B2;
+}
+h6 {
+	margin-top: 0px;
+}

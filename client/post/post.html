@@ -1,0 +1,49 @@
+<template name="post">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h6>{{username}}</h6>
+                {{text}}
+              </div>
+              <div class="mdl-card__menu pray">
+                <button class="mdl-button mdl-js-button mdl-ripple-effect hands">
+                  <img height="40px" width="40px" src="/hands.png">
+                   {{#if likeCount}}
+                    {{likeCount}}
+                  {{/if}}
+                </button>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                 
+        {{#if likeCount}}
+          <div class="prayercount">{{likeCount}} prayers have been made</div>
+        {{/if}}
+
+        <ul>
+          {{#each postComments}}
+            {{> postcomment}}
+          {{/each}}
+        </ul>
+        <!-- Textfield with Floating Label -->
+
+
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+    <input class="mdl-textfield__input comment" type="text" id="id3" value=""/>
+    <label class="mdl-textfield__label" for="id3">Comment Here...</label>
+  </div>
+
+
+              </div>
+            </div>
+          </section>
+</template>
+
+
+
+
+<template name="postcomment">
+    <div class="commentstext">
+      <b>{{username}}</b>     
+      {{text}}
+    </div>
+</template>
